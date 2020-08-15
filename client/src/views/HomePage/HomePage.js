@@ -1,6 +1,7 @@
 import React from "react";
 // nodejs library that concatenates classes
 import classNames from "classnames";
+import { Link } from "react-router-dom";
 // @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
 // @material-ui/icons
@@ -238,7 +239,9 @@ export default function HomePage(props) {
                   fontSize: 16,
                 }}
               >
-                Call a Darzi
+                <Link to="/Signup/customer" style={{ color: "white" }}>
+                  Call a Darzi
+                </Link>
               </Button>
               <br />
               <Button
@@ -251,7 +254,9 @@ export default function HomePage(props) {
                   fontSize: 16,
                 }}
               >
-                Call a Designer
+                <Link to="/Signup/customer" style={{ color: "white" }}>
+                  Call a Designer
+                </Link>
               </Button>
             </div>
           </div>

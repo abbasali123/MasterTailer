@@ -141,7 +141,7 @@ function OrderBookerOrders(props) {
     if (user.data == "order updated!") {
       if (status === "Cutting") {
         alert("Order Sucessfully Accepted");
-      } else {
+      } else if (status === "Requested") {
         alert("Order Sucessfully Rejected");
       }
       setUser1(user);

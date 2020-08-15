@@ -96,9 +96,8 @@ export default function LoginPage(props) {
   // };
 
   const logName = async () => {
-
-    var parts    =window.location.pathname.split('/');
-    var role   = parts[parts.length - 1];
+    var parts = window.location.pathname.split("/");
+    var role = parts[parts.length - 1];
 
     let isValidmail = validate();
     let isValidpass = validatePass();
@@ -114,13 +113,10 @@ export default function LoginPage(props) {
       });
       const json = await response.json();
 
-      if (json=="submitted")
-      alert("Your ACCOUNT Created now please SignIn");
-else{
-
-  alert("Account Already Created");
-
-}
+      if (json == "submitted") alert("Your ACCOUNT Created now please SignIn");
+      else {
+        alert("Account Already Created");
+      }
 
       window.location = "/Signin";
     }
@@ -161,7 +157,7 @@ else{
       <Header
         absolute
         color="transparent"
-        brand="Material Kit React"
+        brand="MasterTailer"
         rightLinks={<HeaderLinks />}
         {...rest}
       />
@@ -297,8 +293,8 @@ else{
             </GridItem>
           </GridContainer>
         </div>
-        <Footer whiteFont />
       </div>
+      <Footer whiteFont />
     </div>
   );
 }

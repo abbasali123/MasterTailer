@@ -19,8 +19,7 @@ import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
 import NavPills from "components/NavPills/NavPills.js";
 import LandingPage from "views/LandingPage/LandingPage.js";
-import Upload from "views/LandingPage/Sections/Upload.js";
-import BankInfo from "views/LandingPage/Sections/BankInfo.js";
+
 import { Form, FormGroup, Label, Input } from "reactstrap";
 import Datetime from "react-datetime";
 import CustomTabs from "components/CustomTabs/CustomTabs.js";

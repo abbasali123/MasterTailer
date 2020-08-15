@@ -102,7 +102,7 @@ export default function AdminPage(props) {
     <div>
       <Header
         color="transparent"
-        brand="Home"
+        brand="MasterTailer"
         rightLinks={<HeaderLinks />}
         fixed
         changeColorOnScroll={{

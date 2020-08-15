@@ -148,7 +148,7 @@ export default function CustomerPage(props) {
     <div>
       <Header
         color="transparent"
-        brand="Home"
+        brand="MasterTailer"
         rightLinks={<HeaderLinks />}
         fixed
         changeColorOnScroll={{

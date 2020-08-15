@@ -19,9 +19,7 @@ import Landingshopowner from "views/LandingPage/Landingshopowner.js";
 import Signup from "views/LoginPage/Signup.js";
 import Signin from "views/LoginPage/Signin.js";
 import HomePage from "views/HomePage/HomePage.js";
-import PersonInfo from "views/LandingPage/Sections/PersonInfo.js";
-import Upload from "views/LandingPage/Sections/Upload.js";
-import BankInfo from "views/LandingPage/Sections/BankInfo.js";
+
 import OrderLandingPage from "views/LandingPage/OrderBooker/OrderLandingPage.js";
 import FOrderLandingPage from "views/LandingPage/OrderBooker/FOrderLandingPage.js";
 import CustomerPage from "views/CustomerLandingPage/CustomerPage.js";
@@ -41,9 +39,7 @@ ReactDOM.render(
       <Route path="/landing-owner" component={Landingshopowner} />
       <Route path="/affialate" component={Landingafffialate} />
       <Route path="/landing-page" component={LandingPage} />
-      <Route path="/PersonInfo" component={PersonInfo} />
-      <Route path={"/landing-page/Upload"} component={Upload} />
-      <Route path="/BankInfo" component={BankInfo} />
+
       <Route path="/orderlanding" component={OrderLandingPage} />
       <Route path="/Forderlanding" component={FOrderLandingPage} />
       <Route path="/customerpage" component={CustomerPage} />

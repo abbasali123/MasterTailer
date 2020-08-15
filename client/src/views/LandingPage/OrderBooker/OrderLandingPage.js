@@ -29,13 +29,7 @@ import styles from "assets/jss/material-kit-react/views/landingPage.js";
 
 // Sections for this page
 import Sectiontabs from "views/Components/Sections/SectionTabs.js";
-// import PersonInfo from "./Sections/PersonInfo.js";
-// import Upload from "./Sections/Upload.js";
-// import BankInfo from "./Sections/BankInfo.js";
-// import TeamSection from "./Sections/TeamSection.js";
-// import WorkSection from "./Sections/WorkSection.js";
-// import RegNavBar from "./Sections/RegNavBar.js";
-// import FranchiseOwner from "./Sections/FranchiseOwner.js";
+
 import MaleOrder from "views/LandingPage/OrderBooker/MaleOrder.js";
 import FemaleOrder from "views/LandingPage/OrderBooker/MaleOrder.js";
 const dashboardRoutes = [];

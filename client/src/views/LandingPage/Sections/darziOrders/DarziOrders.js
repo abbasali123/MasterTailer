@@ -129,7 +129,7 @@ export default function DarziOrders(props) {
         alert("Order Sucessfully Accepted");
       } else if (status === "Completed") {
         alert("Order Sucessfully Completed");
-      } else {
+      } else if (status === "Requested") {
         alert("Order Sucessfully Rejected");
       }
       setUser1(user);

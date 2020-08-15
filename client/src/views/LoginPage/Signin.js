@@ -181,7 +181,7 @@ export default function LoginPage(props) {
       <Header
         absolute
         color="transparent"
-        brand="Material Kit React"
+        brand="MasterTailer"
         rightLinks={<HeaderLinks />}
         {...rest}
       />
@@ -227,7 +227,7 @@ export default function LoginPage(props) {
                       />
                     </div>
                   </CardHeader>
-                  <p className={classes.divider}>{dataResult}</p>
+                  {/* <p className={classes.divider}>{dataResult}</p> */}
                   <CardBody>
                     {/* <input
       type="text"
@@ -293,8 +293,8 @@ export default function LoginPage(props) {
             </GridItem>
           </GridContainer>
         </div>
-        <Footer whiteFont />
-      </div>
+      </div>{" "}
+      <Footer whiteFont />
     </div>
   );
   module.exports = { variableName: "variableValue" };

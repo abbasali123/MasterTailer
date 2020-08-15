@@ -53,7 +53,7 @@ export default function ProfilePage(props) {
     <div>
       <Header
         color="transparent"
-        brand="Material Kit React"
+        brand="MasterTailer"
         rightLinks={<HeaderLinks />}
         fixed
         changeColorOnScroll={{

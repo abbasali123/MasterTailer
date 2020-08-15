@@ -4,6 +4,7 @@ import Carousel from "react-elastic-carousel";
 import Item from "./Item";
 import "./styles.scss";
 import Image from "material-ui-image";
+import { Link } from "react-router-dom";
 
 class CardHeader extends React.Component {
   render() {
@@ -19,7 +20,8 @@ class Button extends React.Component {
   render() {
     return (
       <button className="button button-primary">
-        <i className="fa fa-chevron-right"></i> Find out more
+        <i className="fa fa-chevron-right"></i>{" "}
+        <Link to="/Signup/customer">Find Out More</Link>
       </button>
     );
   }

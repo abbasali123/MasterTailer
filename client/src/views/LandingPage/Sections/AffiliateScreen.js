@@ -61,7 +61,7 @@ export default function Affiliate(props) {
     <div>
       <Header
         color="transparent"
-        brand="Material Kit React"
+        brand="MasterTailer"
         rightLinks={<HeaderLinks />}
         fixed
         changeColorOnScroll={{
