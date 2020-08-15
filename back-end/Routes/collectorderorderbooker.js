@@ -18,11 +18,11 @@ var url = config.mongoURI;
   (multerS3 = require("multer-s3"));
 
 var myuser = usermodel.find({});
-aws.config.update({
-  secretAccessKey: "PJeP8STFghKMndfYfeemrXaG+PitA89U0tYVh4Vj",
-  accessKeyId: "AKIAW2NNE42EUXN5SD5J",
-  region: "us-east-1",
-});
+// aws.config.update({
+//   secretAccessKey: "PJeP8STFghKMndfYfeemrXaG+PitA89U0tYVh4Vj",
+//   accessKeyId: "AKIAW2NNE42EUXN5SD5J",
+//   region: "us-east-1",
+// });
 s3 = new aws.S3();
 
 module.exports = function (router) {
